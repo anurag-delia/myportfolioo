@@ -97,41 +97,63 @@ ul li #sub:hover{
     width: 50%;
     height: 90%;
     margin-left: 80px;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
+
 .left .a{
-    color: #c04848;
+    color: white;
 }
 
 .left .b{
-   margin-left: 15%;
-    color: peru; 
+   /* margin-left: 15%; */
+    color: white; 
+}
+
+.left h4 span{
+    color: aqua;
+    margin-left: 6px;
 }
 
 .left .c{
-    margin-top: 50px;
-    margin-bottom: 10px;
-    font-size: 25px;
+    margin-top: 15px;
+    font-size: 20px;
     color: #f72585;
 }
 
-.left .d{
-    margin-bottom: 50px;
-    letter-spacing: 1px;
-    font-style: normal;
-    color: #9db4c0;
+.left article{
+    margin-top: 5px;
+    color: white;
 }
 
 
 .left .e{
     color: #050517;
-    background-color: #72b01d;
+    background-color: #75a72b;
+    font-weight: bold;
     padding: 5px 8px;
     border-radius: 10px;
     border: none;
     letter-spacing: 1px;
     transition: 0.5s;
+    margin-top: 20px;
+}
+
+.icon {
+    margin-top: 35px;
+}
+
+.icon a{
+    font-size: 30px;
+    padding-right: 9px;
+    color: 	#75a72b;
+    transition: 0.5s;
+}
+
+.icon a:hover{
+  box-shadow: 0 0 10px #75a72b;
+     /* background-color: rgb(42,0,93); */
+     border-radius: 40%;
 }
 
 .left .e:hover{
@@ -139,6 +161,7 @@ ul li #sub:hover{
      background-color: rgb(42,0,93);
      color: white;
 }
+
 
 .main_content .right{
         width: 60%;
